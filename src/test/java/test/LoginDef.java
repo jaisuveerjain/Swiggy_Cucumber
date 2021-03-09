@@ -50,7 +50,7 @@ public class LoginDef {
 	          phoneno.sendKeys(phonenumber);
 	          
 	          
-	          WebElement Login_btn = driver.findElement(By.xpath("//input[@type='submit']"));
+	          WebElement Login_btn = driver.findElement(By.xpath("//*[@class='a-ayg']"));
 	          Login_btn.click();
 	    }
 
